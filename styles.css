@@ -19,6 +19,30 @@
   padding: 0;
 }
 body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fefbf6;
+  color: #333;
+}
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+.banner {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.video {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+body {
   font-family: 'Segoe UI', sans-serif;
   scroll-behavior: smooth;
 }
