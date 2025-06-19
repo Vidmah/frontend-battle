@@ -1,77 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Frontend Battle 2.0</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <!-- Loader -->
-  <div id="loader" class="loader">
-    <img src="assets/loader.gif" alt="Loading…" />
-  </div>
-
-  <!-- Navbar -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#features">Features</a></li>
-    </ul>
-    <button id="mode-toggle" aria-label="Toggle dark mode">🌙</button>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="hero" class="section-hero">
-    <img src="assets/banner.png" alt="Hero Banner" class="hero-img" />
-    <div class="hero-text">
-      <h1>Welcome to Frontend Battle</h1>
-      <p>Crafted with style, responsive from day one.</p>
-      <a href="#features" class="cta-btn">Explore Features</a>
-    </div>
-  </section>
-  
-  <!-- Intro Video -->
-  <section id="intro" class="section-video">
-    <video autoplay muted loop playsinline class="intro-video">
-      <source src="assets/intro.mp4" type="video/mp4" />
-      Your browser does not support this video.
-    </video>
-  </section>
-
-  <!-- Features -->
-  <section id="features" class="section-features">
-    <h2>Core Features</h2>
-    <div class="features-grid">
-      <div class="feature-card">Feature 1: Smooth Scroll</div>
-      <div class="feature-card">Feature 2: Loader Animation</div>
-      <div class="feature-card">Feature 3: Light/Dark Mode</div>
-      <div class="feature-card">Feature 4: Responsive Design</div>
-      <div class="feature-card">Feature 5: Hover Effects</div>
-      <div class="feature-card">Feature 6: Back-to-top Button</div>
-    </div>
-    <button id="backToTop" aria-label="Back to top">↑ Top</button>
-  </section>
-  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Frontend Battle 2.0</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
+  <header class="hero">
     <h1>Frontend Battle 2.0</h1>
-    <img src="assets/banner.jpg" alt="Banner" class="banner" />
-    <video src="assets/intro.mp4" controls class="video"></video>
-    <p>Welcome to the competition. Let your creativity shine!</p>
-  </div>
-</body>
-</html>
+    <p class="tagline">Design. Develop. Dominate.</p>
+  </header>
 
+  <section class="content">
+    <img src="assets/banner.jpg" alt="Competition Banner" class="main-img"/>
 
-  <script src="script.js"></script>
+    <video src="assets/intro.mp4" controls class="intro-video"></video>
+
+    <div class="description">
+      <h2>Welcome Competitors!</h2>
+      <p>Showcase your frontend skills using creative layouts, engaging animations, and well-structured code. Use the provided assets to build something awesome!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Frontend Battle. All rights reserved.</p>
+  </footer>
 </body>
 </html>
